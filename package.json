@@ -1,0 +1,26 @@
+{
+  "name": "nodesampleone",
+  "version": "1.0.1",
+  "description": "Setup environment in aws instance and configure with nginx",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodkottem/aws-nginx-node.git"
+  },
+  "keywords": [
+    "vinod",
+    "kottem"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinodkottem/aws-nginx-node/issues"
+  },
+  "homepage": "https://github.com/vinodkottem/aws-nginx-node#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
