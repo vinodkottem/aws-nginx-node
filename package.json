@@ -22,5 +22,8 @@
   "homepage": "https://github.com/vinodkottem/aws-nginx-node#readme",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "pm2": "^2.5.0"
   }
 }
