@@ -11,8 +11,6 @@ module.exports = {
             'ref': 'origin/master',
             'repo': 'git@github.com:vinodkottem/aws-nginx-node.git',
             'path': '/home/ubuntu/awsnginxnode',
-            'restart': 'pm2 startOrRestart ecosystem.config.js',
-            'deploy': 'pm2 deploy ecosystem.config.js production',
             'post-deploy': 'npm install && npm run-script restart'
         }
     }
